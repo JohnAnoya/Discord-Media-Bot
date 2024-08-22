@@ -5,7 +5,7 @@ from discord import app_commands
 from discord.ext import commands
 
 async def setup(bot): 
-    await bot.addcog(mis_cog(bot))
+    await bot.addcog(misc_cog(bot))
 
 class misc_cog(commands.Cog):
     def __init__(self, bot): 
